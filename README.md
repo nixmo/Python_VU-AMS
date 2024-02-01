@@ -9,7 +9,10 @@ This script allows controlling the VU-AMS via Python while the device is connect
 
 ## Requirements
 
-This script requires that the VU-DAMS software and the CDM_v2.10.00_WHQL_Certified driver (both available [here](https://vu-ams.nl/downloads/)) be installed on the system.
+- Windows computer (tested on Windows 10)
+- Python 3 (tested on 3.10.11)
+- Python package `pyserial`
+- VU-DAMS software and the CDM_v2.10.00_WHQL_Certified driver (both available [here](https://vu-ams.nl/downloads/))
 
 ## Usage
 
