@@ -60,6 +60,7 @@ Example usage from within another Python script:
 from vuams_serial import AmsDevice  # ensure vuams_serial.py is located in the same folder as this script
 
 # initialize device instance
+# port = "COM5"  # to set the port manually
 port = AmsDevice.find_device_port()  # determine port automatically
 device = AmsDevice(port)
 
