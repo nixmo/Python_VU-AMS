@@ -83,9 +83,9 @@ device.start_recording()
 # send marker
 device.send_marker(1)
 
-# disconnect
-device.disconnect()
-
 # stop recording
 device.stop_recording()
+
+# disconnect
+device.disconnect()
 ```
