@@ -55,6 +55,9 @@ from vuams_serial import AmsDevice
 port = AmsDevice.find_device_port()  # get port automatically
 device = AmsDevice(port)
 
+# connect
+device.connect()
+
 # check if device is present
 device_present = device.is_device_present()
 print(f'{port},{device_present}')
@@ -79,6 +82,9 @@ device.start_recording()
 
 # send marker
 device.send_marker(1)
+
+# disconnect
+device.disconnect()
 
 # stop recording
 device.stop_recording()
