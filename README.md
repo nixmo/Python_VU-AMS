@@ -7,9 +7,11 @@ The VU-AMS is a portable device for the recording of EKG, IKG, and Electrodermal
 
 This script allows controlling the VU-AMS via Python while the device is connected to the computer using the [USB infrared serial communication interface cable](https://vu-ams.nl/product/amsiusb/).
 
-## Usage
+## Requirements
 
 This script requires that the VU-DAMS software and the CDM_v2.10.00_WHQL_Certified driver (both available [here](https://vu-ams.nl/downloads/)) be installed on the system.
+
+## Usage
 
 This script can be used either via command line arguments as a stand-alone script, or by importing the `AmsDevice` class from vuams_serial.py from within another Python script.
 
