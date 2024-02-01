@@ -3,7 +3,7 @@
 > [!NOTE]  
 > This script is unofficial. I'm not affiliated with the Vrije Universiteit Amsterdam.
 
-The VU-AMS is a portable device for the recording of EKG and Electrodermal Activity.
+The VU-AMS is a portable device for the recording of EKG, IKG, and Electrodermal Activity.
 
 This script allows controlling the VU-AMS via Python when the device is connected to the Windows computer using the [USB infrared serial communication interface cable](https://vu-ams.nl/product/amsiusb/).
 
