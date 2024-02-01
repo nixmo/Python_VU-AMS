@@ -60,7 +60,7 @@ Example usage from within another Python script:
 from vuams_serial import AmsDevice
 
 # initialize device instance
-port = AmsDevice.find_device_port()  # get port automatically
+port = AmsDevice.find_device_port()  # determine port automatically
 device = AmsDevice(port)
 
 # connect
