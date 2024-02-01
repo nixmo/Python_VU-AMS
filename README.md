@@ -24,7 +24,7 @@ Demonstration:
 
 [python_vuams_demonstration.webm](https://github.com/nixmo/python_vuams/assets/56759362/e2180eeb-5225-4d98-b11a-8c22064a94aa)
 
-Command Line Arguments:
+Use `--help` to see all available command line arguments:
 
 ```
 > python vuams_serial.py --help
